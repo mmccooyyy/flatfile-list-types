@@ -1,0 +1,21 @@
+{
+  "name": "list-types",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@flatfile/api": "^1.8.2",
+    "@flatfile/listener": "^1.0.1",
+    "@flatfile/plugin-record-hook": "^1.4.5",
+    "@types/node": "^20.11.30",
+    "axios": "^1.6.8",
+    "flatfile": "^3.6.2",
+    "tsup": "^8.0.2"
+  }
+}
