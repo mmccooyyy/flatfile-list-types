@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@flatfile/api": "^1.8.2",
+    "@flatfile/api": "^1.8.5",
     "@flatfile/listener": "^1.0.1",
     "@flatfile/plugin-record-hook": "^1.4.5",
     "@types/node": "^20.11.30",

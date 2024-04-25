@@ -49,9 +49,25 @@ export default function flatfileEventListener(listener: Client) {
                   }
                 },
                 {
-                  key: 'stringList',
-                  type: 'string-list',
-                  label: 'String List',
+                  key: 'enumList',
+                  type: 'enum-list',
+                  label: 'Enum List',
+                  config: {
+                    options: [
+                      {
+                        value: 'Meeting',
+                        label: 'Meeting',
+                      },
+                      {
+                        value: 'New',
+                        label: 'New',
+                      },
+                      {
+                        value: 'Not a fit',
+                        label: 'Not a fit',
+                      },
+                    ]
+                  }
                 },
               ],
             } as Flatfile.SheetConfig
